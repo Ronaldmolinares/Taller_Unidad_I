@@ -75,7 +75,7 @@ def mostrar_empleados(empleados):
     print("Empleados")
     for i in range(len(empleados[0])):
         print(
-            f"Empleado_{i + 1}: {empleados[0][i]}, Edad: {empleados[1][i]}, Peso: {empleados[2][i]}"
+            f"Empleado # {i + 1}: Nombre: {empleados[0][i]}, Edad: {empleados[1][i]}, Peso: {empleados[2][i]}"
         )
 
 
