@@ -1,4 +1,6 @@
 def clasificar(caracter):
+    """Escribir una función que reciba un carácter y evalué si el valor ingresado, corresponde a una
+    vocal o a una consonante. Cuando sea vocal que retorne el valor booleano (TRUE)."""
     vocales = "aeiou"
 
     if caracter in vocales:
@@ -8,6 +10,7 @@ def clasificar(caracter):
 
 
 def cuadratica(a, b, c):
+    """Ejercicio de ecuación cuadrática escrita en forma de función"""
     if a == 0:
         return "No es una ecuación cuadrática (a no puede ser 0)"
     else:
@@ -25,6 +28,13 @@ def cuadratica(a, b, c):
 
 
 def histograma(lista):
+    """
+    Hacer una función que reciba una lista de números e imprima un histograma. Ejemplo:
+    histogram([3,5,1]) debe mostrar:
+    HHH
+    HHHHH
+    H
+    """
 
     if len(lista) == 0:
         return "Sin datos para generar histograma"
@@ -48,5 +58,5 @@ if __name__ == "__main__":
     )
 
     print("Función Histograma:")
-    datos_histograma = [9, 3, 4]
+    datos_histograma = [3, 5, 1]
     histograma(datos_histograma)
